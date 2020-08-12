@@ -9,8 +9,8 @@ const styles = StyleSheet.create({
     },
     header:{
         backgroundColor:"#8257E5",
-        padding: 40,
-        minHeight:340
+        paddingHorizontal: 40,
+        paddingBottom: 40
     },
     title:{
         fontFamily: "Archivo_700Bold",

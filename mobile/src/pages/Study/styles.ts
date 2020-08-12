@@ -6,21 +6,55 @@ const styles = StyleSheet.create({
         backgroundColor: "#f0f0f7"
     },
 
-    contentFilter: {
-        flexDirection: "row",
-        justifyContent: "space-evenly",
-        alignItems: "center",
-        borderBottomColor: "#D4C2FF",
-        borderBottomWidth: 0.5,
-        paddingVertical:16
+    teacherList: {
+        marginTop: -40,
     },
 
-    textFilter: {
-        marginLeft: 16,
-        color: "#D4C2FF",
-        fontFamily: "Archivo_400Regular"
-    }
+    searchForm: {
+        marginBottom: 8
+    },
 
+    label: {
+        color: "#d4c2ff",
+        fontFamily: "Poppins_400Regular"
+    },
+    input: {
+        height: 54,
+        backgroundColor: '#fff',
+        borderRadius: 8,
+        justifyContent: "center",
+        paddingHorizontal: 16,
+        marginTop:4,
+        marginBottom: 16
+    },
+    
+    inputGroup:{
+        flexDirection:"row",
+        justifyContent:"space-between"
+    },
+
+    inputBlock:{
+        width:"48%"
+    },
+
+    buttonSearchContainer:{
+        marginBottom: 8
+    },
+
+    buttonSearch:{
+        width:"100%",
+        height:54,
+        backgroundColor:"#04d361",
+        borderRadius: 8,
+        justifyContent:"center",
+        alignItems:"center"
+    },
+
+    buttonSearchText:{
+        fontFamily:"Archivo_700Bold",
+        fontSize:16,
+        color:"#FFF"
+    }
 })
 
 export default styles
